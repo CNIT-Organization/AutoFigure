@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="img/logo.png" alt="AutoFigure Logo" width="500"/>
+<img src="img/logo.png" alt="AutoFigure Logo" width="100%"/>
 
 # AutoFigure
 **AI-Powered Scientific Figure Generation**
