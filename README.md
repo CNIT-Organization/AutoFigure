@@ -1,3 +1,9 @@
+---
+title: AutoFigure
+sdk: docker
+app_port: 7860
+---
+
 <div align="center">
 
 <img src="img/logo.png" alt="AutoFigure Logo" width="100%"/>

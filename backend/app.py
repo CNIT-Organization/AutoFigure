@@ -49,12 +49,13 @@ except ImportError as e:
     print(f"[AutoFigure] Warning: Could not import autofigure_routes: {e}")
 
 if __name__ == '__main__':
-    port = int(os.environ.get('PORT', 8796))
-    print(f"[AutoFigure] Starting backend server on http://127.0.0.1:{port}")
-    print(f"[AutoFigure] LOCAL ACCESS ONLY - Public network access is disabled")
+    port = int(os.environ.get('AUTOFIGURE_BACKEND_PORT', 8796))
+    host = os.environ.get('AUTOFIGURE_HOST', '127.0.0.1')
+    print(f"[AutoFigure] Starting backend server on http://{host}:{port}")
+    if host in ('127.0.0.1', 'localhost'):
+        print(f"[AutoFigure] LOCAL ACCESS ONLY - Public network access is disabled")
     print(f"[AutoFigure] Backend path: {backend_path}")
     print(f"[AutoFigure] AutoFigure path: {autofigure_path}")
-    # IMPORTANT: Use 127.0.0.1 (localhost only) - DO NOT use 0.0.0.0 for security
     # NOTE: use_reloader=False is required to prevent Flask from restarting when
     # Playwright or other libraries modify files during execution (especially on Windows)
-    app.run(host='127.0.0.1', port=port, debug=True, use_reloader=False)
+    app.run(host=host, port=port, debug=True, use_reloader=False)

@@ -1,0 +1,12 @@
+.git
+.gitignore
+.venv
+__pycache__/
+*.pyc
+.pytest_cache/
+frontend/.next/
+frontend/out/
+frontend/node_modules/
+backend/__pycache__/
+autofigure/__pycache__/
+autofigure.egg-info/
