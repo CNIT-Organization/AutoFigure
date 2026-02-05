@@ -29,7 +29,7 @@ pip install autofigure[full]
 Or install from source:
 
 ```bash
-git clone https://github.com/autofigure/autofigure
+git clone https://github.com/ResearAI/AutoFigure
 cd autofigure
 pip install -e .
 ```
