@@ -23,6 +23,7 @@
 ---
 ## 🔥 News
 
+- **[2026.03.24]** 🧠 Our sister project **DeepScientist v1.5** is now officially released. It is a local-first open-source autonomous research system for end-to-end scientific discovery. Explore it on [GitHub](https://github.com/ResearAI/DeepScientist) or read the [ICLR 2026 paper](https://openreview.net/forum?id=cZFgsLq8Gs).
 - **[2026.03.11]** 📄 Our **AutoFigure-Edit** paper is now available on [arXiv](https://arxiv.org/pdf/2603.06674) and featured in 🤗[Hugging Face Daily Papers](https://huggingface.co/papers/2603.06674)! If you find our work helpful, please consider giving us an **upvote** on Hugging Face and **citing** our paper. Thank you! ❤️
 - **[2026.02.17]** 🚀 The **AutoFigure-Edit online platform** is now live! It is free for all scholars to use. Try it out at [deepscientist.cc](https://deepscientist.cc) or check out our open-source code on [GitHub](https://github.com/ResearAI/AutoFigure-Edit). This new Edit version achieves much better performance!
 - **[2026.01.26]** 🎉 AutoFigure has been accepted to **ICLR 2026**! You can read the paper on [arXiv](https://arxiv.org/abs/2602.03828).
@@ -321,7 +322,7 @@ Scan the QR code to join our community. If the code is expired, please add WeCha
 
 ## 📜 Citation & License
 
-If you use **AutoFigure** or **FigureBench** in your research, please cite:
+If you use **AutoFigure**, **AutoFigure-Edit**, or **FigureBench** in your research, please cite:
 
 ```bibtex
 @inproceedings{
@@ -332,4 +333,29 @@ booktitle={The Fourteenth International Conference on Learning Representations},
 year={2026},
 url={https://openreview.net/forum?id=5N3z9JQJKq}
 }
+
+@misc{lin2026autofigureeditgeneratingeditablescientific,
+      title={AutoFigure-Edit: Generating Editable Scientific Illustration}, 
+      author={Zhen Lin and Qiujie Xie and Minjun Zhu and Shichen Li and Qiyao Sun and Enhao Gu and Yiran Ding and Ke Sun and Fang Guo and Panzhong Lu and Zhiyuan Ning and Yixuan Weng and Yue Zhang},
+      year={2026},
+      eprint={2603.06674},
+      archivePrefix={arXiv},
+      primaryClass={cs.CV},
+      url={https://arxiv.org/abs/2603.06674}, 
+}
 ```
+
+This project is licensed under the MIT License - see `LICENSE` for details.
+
+---
+
+## More From ResearAI
+
+Explore more open-source research tools from ResearAI:
+
+| Project | What it does |
+|---|---|
+| [DeepScientist](https://github.com/ResearAI/DeepScientist) | autonomous scientific discovery system |
+| [AutoFigure-Edit](https://github.com/ResearAI/AutoFigure-Edit) | editable vector paper figures |
+| [DeepReviewer-v2](https://github.com/ResearAI/DeepReviewer-v2) | review papers and drafts |
+| [Awesome-AI-Scientist](https://github.com/ResearAI/Awesome-AI-Scientist) | curated AI scientist landscape |
