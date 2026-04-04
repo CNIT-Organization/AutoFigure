@@ -352,6 +352,9 @@ url={https://openreview.net/forum?id=5N3z9JQJKq}
 
 This project is licensed under the MIT License - see `LICENSE` for details.
 
+
+
+
 ---
 
 ## More From ResearAI
@@ -364,3 +367,10 @@ Explore more open-source research tools from ResearAI:
 | [AutoFigure-Edit](https://github.com/ResearAI/AutoFigure-Edit) | editable vector paper figures |
 | [DeepReviewer-v2](https://github.com/ResearAI/DeepReviewer-v2) | review papers and drafts |
 | [Awesome-AI-Scientist](https://github.com/ResearAI/Awesome-AI-Scientist) | curated AI scientist landscape |
+
+
+---
+
+The optimal configuration for this project uses `gemini-3.1-flash-image-preview` from Google AI Studio [[https://aistudio.google.com/](https://aistudio.google.com/)] as the image generation model and `gemini-3.1-pro-preview` as the Text model. Each run costs approximately $0.50, consumes about 30,000 tokens, and takes around 20 minutes. 
+
+[Mainland China Notice] Gemini's Terms of Service do not permit access or usage by users in mainland China. If OpenRouter throws an error, it is often because an account registered in mainland China lacks the necessary permissions to use Gemini. It is recommended to use an OpenRouter account registered in the United States or Europe and to ensure compliant usage.
