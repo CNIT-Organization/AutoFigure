@@ -320,7 +320,7 @@ AutoFigure/
 Scan the QR code to join our community. If the code is expired, please add WeChat ID `nauhcutnil` or contact `tuchuan@mail.hfut.edu.cn`.
 <table>
   <tr>
-    <td><img src="img/wechat9.jpg" width="200" alt="WeChat 2"/></td>
+    <td><img src="img/wechat10.jpg" width="200" alt="WeChat 2"/></td>
   </tr>
 </table>
 ---
